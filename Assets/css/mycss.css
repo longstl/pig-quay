@@ -1,0 +1,11 @@
+#pig{
+    position:fixed;
+    -webkit-animation:linear infinite alternate;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 2s;
+}
+@-webkit-keyframes run {
+    0% { left: 0;}
+    50%{ left : 95%;}
+    100%{ left: 0;}
+}
